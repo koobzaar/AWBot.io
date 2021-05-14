@@ -1,0 +1,18 @@
+#AWBotLogo{
+    width: 50px;
+    height: 50px;
+    padding-bottom: 25px;
+}
+#Navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--backgroundColor);
+    width: 150px;
+    height: 100%;
+}
+.sideLogo{
+    width: 30px;
+    height: 50px;
+    padding-top: 30px;
+}

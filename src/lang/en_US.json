@@ -1,0 +1,18 @@
+{
+    "details":{
+
+    },
+    "strings":{
+        "login":"login",
+        "dashboard":"Dashboard",
+        "HOME":"HOME",
+        "TotalTLMbalance":"Total TLM balance",
+        "approximatelyAbb":"approx.",
+        "Resources":"Resources",
+        "CPU":"CPU",
+        "Memory":"Memory",
+        "Network":"Network",
+        "waxStaked":"WAX STAKED",
+        "clickHereToStakeMore":"CLICK HERE TO TAKE MORE"
+    }
+}
