@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Imtvb2J6YWFyIiwicmVwbzEiOiJBV0JvdC5pbyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI3ODcxLCJpYXQiOjE2MjA5Njc2NzR9.db6zQNM5UJ-0yyyj8p2iECzc34gHqJalxAYknQkvyEs)](https://www.deepcode.ai/app/gh/koobzaar/AWBot.io/_/dashboard?utm_content=gh%2Fkoobzaar%2FAWBot.io)
 
 ## Available Scripts
 
