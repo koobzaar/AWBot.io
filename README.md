@@ -1,68 +1,42 @@
-[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Imtvb2J6YWFyIiwicmVwbzEiOiJBV0JvdC5pbyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI3ODcxLCJpYXQiOjE2MjA5Njc2NzR9.db6zQNM5UJ-0yyyj8p2iECzc34gHqJalxAYknQkvyEs)](https://www.deepcode.ai/app/gh/koobzaar/AWBot.io/_/dashboard?utm_content=gh%2Fkoobzaar%2FAWBot.io)
+# AWBot
+Alien Worlds TLM Miner front-end project.
 
-## Available Scripts
+#### Visual (sem nenhuma integração de API)
+Navbar
+- [ ] Importação dos respectivos SVG's para cada função
+- [ ] Alterar língua
 
-In the project directory, you can run:
+Dashboard
+- Parte esquerda da Dashboard (Balanço e Recursos)
+- [x] Mostrar o balanço do usuário de TLM
+- [x] Mostrar o balanço do usuário em $ (USD)
+- [x] Progress bar para cada recurso usado pela WAX
+- [x] Total de TLM em Stake
+- [ ] Parte direita da Dashboard (Sessão de Mineração)
+- [ ] Gráficos com o total de TLM minerada e o rate de TLM/hora 
+- [x] Listar a land atual do usuário
+- [x] Listar o array da bag atual de mineração do usuário
+- [x] Exibir o array do log de mineração 
+- [x] Mostrar o state do bot (Minerando, Carregando e etc)
+- [x] Mostrar qual a configuração de auto-mine e cpu limit definida
+- [ ] Botão de start mining
 
-### `yarn start`
+Configurações 
+- [ ] Mostrar todos as NFTs do usuário
+- [ ] Selecionar NFTs específicos apenas clicando neles
+- [ ] Botão para setar NFT
+- [ ] Definir limite de CPU
+- [ ] Definir se o auto-mine está ativo ou não
+- [ ] Definir time out no bot até a próxima mineração
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Responsividade
+- [ ] Criar telas de exibição limitada
+- [ ] Esconder a parte direita da Dashboard quando ela já não couber responsivamente na tela
+- [ ] Esconder a navbar quando a presença da mesma for intrusiva ao programa e não mais necessária
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Lógica
+- [ ] Reservar um módulo específico de comunicação entre back-end e front-end, sem precisar que o back-end insira os states diretamente em cada página do bot
+- [ ] Definir a língua
+- [ ] Linkar todos os states, botões e funções no módulo de comunicação (back-end & front-end)
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Documentação (indev)
