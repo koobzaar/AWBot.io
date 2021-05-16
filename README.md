@@ -12,7 +12,7 @@ Dashboard
 - [x] Mostrar o balanço do usuário em $ (USD)
 - [x] Progress bar para cada recurso usado pela WAX
 - [x] Total de TLM em Stake
-- [ ] Parte direita da Dashboard (Sessão de Mineração)
+- Parte direita da Dashboard (Sessão de Mineração)
 - [ ] Gráficos com o total de TLM minerada e o rate de TLM/hora 
 - [x] Listar a land atual do usuário
 - [x] Listar o array da bag atual de mineração do usuário
