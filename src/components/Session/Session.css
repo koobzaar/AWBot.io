@@ -1,0 +1,101 @@
+#Session {
+    box-sizing: border-box;
+    padding: 35px;
+    width: 100%;
+    height: 850px;
+    padding-left: 80px;
+    background-color: var(--componentBackground);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+#session-title{
+    color:var(--primaryText);
+    letter-spacing: 5px;
+    margin-left: -20px;
+}
+
+.personal-mining-stats{
+    background-color: inherit;
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    
+}
+.land-bag{
+    width: 50%;
+    height: 100%;
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+/* <h3 id="current-bag-title">{lang.strings.yourCurrentBag}</h3>
+                <h1 id="current-bag-items">{props.arrayCurrentItemsName[0]}<br/>{props.arrayCurrentItemsName[0]}<br/>{props.arrayCurrentItemsName[0]}</h1> */
+.bag-status{
+    margin-top: 20px;
+}
+
+#current-bag-title{
+    color: var(--primaryText);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#current-bag-items{
+    font-size: 23px;
+    margin-left: 16px;
+    color:var(--primaryText);
+    font-weight: 300;
+}
+#current-land-title{
+    color: var(--primaryText);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+#current-land-name{
+    
+    color:var(--primaryText);
+    font-size: 26px;
+    margin-top: 0.9vh;
+    margin-left: 20px;
+}
+#current-land-comission{
+    color: var(--primaryColor);
+    font-size: 0.7vw;
+    margin-left: 20px;
+}
+.mining-log{
+    width: 50%;
+    height: 50%;
+    background-color: inherit;
+}
+#mining-log-title{
+    color: var(--primaryText);
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.bot-config{
+    width: 100%;
+    height: 25%;
+    background-color: inherit;
+}
+.charts{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 30%;
+    background-color: inherit;
+}
+#pseudo-chart{
+    color: var(--primaryText);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #212121;
+    width: 45%;
+}

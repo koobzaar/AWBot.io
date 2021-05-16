@@ -7,6 +7,7 @@ import GlobalStyles from "../../global";
 function Home() {
   return (
     <div id="app">
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <GlobalStyles/>
 
       <Navbar/>

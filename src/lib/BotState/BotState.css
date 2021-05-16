@@ -1,0 +1,56 @@
+#BotState{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: inherit;
+}
+/* <div id="bot-current-state">
+
+            </div>
+            <div id="current-bot-config">
+                
+            </div> */
+.bot-current-state{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: inherit;
+}
+#bot-state-now{
+    font-size: 50px;
+    margin-left: 30px;
+    font-weight: bold;
+    color:var(--primaryText);
+    text-transform: uppercase;
+}
+#bot-state-title{
+    font-size: 20px;
+    color: var(--primaryColor)
+}
+.current-bot-config{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.auto-mine-and-cpu-limit{
+    color: var(--primaryText);
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+.mine-button{
+    background-color: inherit;
+    width: 100%;
+    height: 50px;
+}
+Button{
+    float: right;
+}
