@@ -22,9 +22,7 @@ function BotState(props) {
           </div>
         </div>
         <div className="mine-button">
-          <Button variant="contained"  color="primary">
-            {lang.strings.startMining}
-          </Button>
+          <button id="start-mining">{lang.strings.startMining}</button>
         </div>
       </div>
     </div>

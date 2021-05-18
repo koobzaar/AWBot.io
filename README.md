@@ -3,7 +3,7 @@ Alien Worlds TLM Miner front-end project.
 
 #### Visual (sem nenhuma integração de API)
 Navbar
-- [ ] Importação dos respectivos SVG's para cada função
+- [x] Importação dos respectivos SVG's para cada função
 - [ ] Alterar língua
 
 Dashboard
@@ -19,15 +19,15 @@ Dashboard
 - [x] Exibir o array do log de mineração 
 - [x] Mostrar o state do bot (Minerando, Carregando e etc)
 - [x] Mostrar qual a configuração de auto-mine e cpu limit definida
-- [ ] Botão de start mining
+- [x] Botão de start mining
 
 Configurações 
-- [ ] Mostrar todos as NFTs do usuário
+- [x] Mostrar todos as NFTs do usuário
 - [ ] Selecionar NFTs específicos apenas clicando neles
-- [ ] Botão para setar NFT
-- [ ] Definir limite de CPU
+- [x] Botão para setar NFT
+- [x] Definir limite de CPU
 - [ ] Definir se o auto-mine está ativo ou não
-- [ ] Definir time out no bot até a próxima mineração
+- [x] Definir time out no bot até a próxima mineração
 
 Responsividade
 - [ ] Criar telas de exibição limitada

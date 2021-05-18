@@ -15,4 +15,9 @@
     width: 30px;
     height: 50px;
     padding-top: 30px;
+    transition: 0.3s;
+    cursor: pointer
+}
+.sideLogo:hover{
+    filter: invert(0.6);
 }

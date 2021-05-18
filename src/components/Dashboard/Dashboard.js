@@ -5,6 +5,16 @@ import lang from "../../lang/en_US.json";
 import Balance from "../BalanceTLM/Balance";
 import Resources from "../Resources/Resources";
 import Session from "../Session/Session";
+import Controller from '../../controllers/communicator';
+
+
+let controller = new Controller()
+console.log(controller.string1)
+
+
+
+
+
 
 function Dashboard() {
   return (
@@ -14,7 +24,6 @@ function Dashboard() {
           <p>{lang.strings.login}</p>
         </div>
       </section>
-
       <section className="dashboard">
         <section className="left-side-dashboard">
           <div>
@@ -36,7 +45,7 @@ function Dashboard() {
         <section className="right-side-dashboard">
           <div>
             <Session
-              currentLand="ACTIVE VULCANO (389:39)"
+              currentLand="Active Vulcano (399:99)"
               landComission="30%"
               arrayCurrentItemsName={["3x Default Shovel","3x Default Shovel","3x Default Shovel"]}
               arrayLastLogs={[
