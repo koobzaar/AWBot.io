@@ -34,7 +34,7 @@ function Settings(props) {
       <session className="user-bag">
         {
           props.currentUserBag.map(element=>{
-            return(<NFTCard image={element.image} id={element.id} selectNFT={selectNFT} deselectNFT={deselectNFT}/>)
+            return(<NFTCard image={element.image} id={element.id} key={element.id} selectNFT={selectNFT} deselectNFT={deselectNFT}/>)
           })
         }
        
