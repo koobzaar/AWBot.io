@@ -47,4 +47,5 @@ Responsividade
 Para instalar todos os componentes. Equivalente ao npm install.
 
 `yarn run dev`
+
 Roda o script que inicializa o servidor de desenvolvimento.
