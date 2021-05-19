@@ -1,6 +1,8 @@
 # AWBot
 Alien Worlds TLM Miner front-end project.
 
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Imtvb2J6YWFyIiwicmVwbzEiOiJBV0JvdC5pbyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI3ODcxLCJpYXQiOjE2MjEzODgzNjZ9.wErTgmO4Bc8w2tQ2-qSZuwrKT4lp9WPEj46vxH32ZJE)](https://www.deepcode.ai/app/gh/koobzaar/AWBot.io/_/dashboard?utm_content=gh%2Fkoobzaar%2FAWBot.io)
+
 #### Visual (sem nenhuma integração de API)
 Navbar
 - [x] Importação dos respectivos SVG's para cada função
@@ -40,6 +42,9 @@ Responsividade
 
 ## Setup
 `yarn install`
+
 Para instalar todos os componentes. Equivalente ao npm install.
+
 `yarn run dev`
+
 Roda o script que inicializa o servidor de desenvolvimento.
