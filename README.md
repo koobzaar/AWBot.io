@@ -1,7 +1,7 @@
 # AWBot
 Alien Worlds TLM Miner front-end project.
 
-[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Imtvb2J6YWFyIiwicmVwbzEiOiJBV0JvdC5pbyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI3ODcxLCJpYXQiOjE2MjEzODgzNjZ9.wErTgmO4Bc8w2tQ2-qSZuwrKT4lp9WPEj46vxH32ZJE)](https://www.deepcode.ai/app/gh/koobzaar/AWBot.io/_/dashboard?utm_content=gh%2Fkoobzaar%2FAWBot.io)
+[![deepcode](https://www.deepcode.ai/api/gh/badge?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwbGF0Zm9ybTEiOiJnaCIsIm93bmVyMSI6Imtvb2J6YWFyIiwicmVwbzEiOiJBV0JvdC5pbyIsImluY2x1ZGVMaW50IjpmYWxzZSwiYXV0aG9ySWQiOjI3ODcxLCJpYXQiOjE2MjE0NjgwODd9.Feumu4k59wT0TXduUC7yPyajaLaEYNNAkC25LmDSiIY)](https://www.deepcode.ai/app/gh/koobzaar/AWBot.io/_/dashboard?utm_content=gh%2Fkoobzaar%2FAWBot.io)
 
 #### Visual (sem nenhuma integração de API)
 Navbar
@@ -33,7 +33,7 @@ Configurações
 Responsividade
 - [x] Criar telas de exibição limitada
 - [x] Esconder a parte direita da Dashboard quando ela já não couber responsivamente na tela
-- [x]Esconder a navbar quando a presença da mesma for intrusiva ao programa e não mais necessária
+- [x] Esconder a navbar quando a presença da mesma for intrusiva ao programa e não mais necessária
 
 #### Lógica
 - [x] Linkar todos os states, botões e funções no módulo de comunicação (back-end & front-end)
