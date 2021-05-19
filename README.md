@@ -40,3 +40,9 @@ Responsividade
 - [ ] Linkar todos os states, botões e funções no módulo de comunicação (back-end & front-end)
 
 ## Documentação (indev)
+
+## Setup
+`yarn install`
+Para instalar todos os componentes. Equivalente ao npm install.
+`yarn run dev`
+Roda o script que inicializa o servidor de desenvolvimento.

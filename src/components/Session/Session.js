@@ -1,10 +1,10 @@
 import '../../common/colorPalette.css'
-import './Session.css';
+import './session.css';
 import MiningLog from '../../lib/miningLog/miningLog'
 import lang from '../../lang/en_US.json';
-import BotConfig from '../../lib/BotState/BotState'
+import BotConfig from '../botstate/botstate'
 // Navbar Icons
-import Chart from '../Chart/Chart'
+import Chart from '../../lib/chart/chart'
 
 
 function Session(props){

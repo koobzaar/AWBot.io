@@ -1,5 +1,5 @@
 import '../../common/colorPalette.css'
-import './Balance.css';
+import './balance.css';
 import lang from '../../lang/en_US.json'
 // Icons
 import eyeIcon from '../../assets/dashboard/eyeIcon.svg';

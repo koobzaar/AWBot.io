@@ -1,5 +1,5 @@
 import '../../common/colorPalette.css'
-import './Navbar.css';
+import './navbar.css';
 
 // Navbar Icons
 import LogoAWBot from '../../assets/logos/awBotLogo.svg';

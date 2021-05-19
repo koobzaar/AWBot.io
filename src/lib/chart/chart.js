@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../common/colorPalette.css'
-import './Chart.css';
+import './chart.css';
 import lang from '../../lang/en_US.json';
 // Navbar Icons
 import { Chart } from 'react-charts'

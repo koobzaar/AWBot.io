@@ -1,5 +1,5 @@
 import "../../common/colorPalette.css";
-import "./BotState.css";
+import "./botstate.css";
 import lang from "../../lang/en_US.json";
 import Button from "@material-ui/core/Button";
 //  botCurrentState="mining" automine="on" cpulimit="100"

@@ -1,5 +1,5 @@
 import '../../../common/colorPalette.css'
-import './NFT.css';
+import './nft.css';
 
 
 function NFTCard(props){

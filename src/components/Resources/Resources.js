@@ -1,5 +1,5 @@
 import '../../common/colorPalette.css'
-import './Resources.css';
+import './resources.css';
 import { Line, Circle } from 'rc-progress';
 import lang from '../../lang/en_US.json';
 // Icons

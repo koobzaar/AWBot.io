@@ -1,14 +1,20 @@
 import "../../common/colorPalette.css";
-import "./Dashboard.css";
+import "./dashboard.css";
 import lang from "../../lang/en_US.json";
 // Navbar Icons
-import Balance from "../../components/balance/balance";
-import Resources from "../../components/Resources/Resources";
-import Session from "../../components/Session/Session";
+import Balance from "../../components/balance/balance.js";
+import Resources from "../../components/resources/resources";
+import Session from "../../components/session/session";
 import Controller from '../../controllers/communicator';
 
 
 let controller = new Controller()
+console.log(controller.string1)
+
+
+
+
+
 
 function Dashboard() {
   return (

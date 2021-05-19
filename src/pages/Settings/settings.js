@@ -1,7 +1,7 @@
 import React from "react";
 import "../../common/colorPalette.css";
 import "./settings.css";
-import NFTCard from "../../components/Settings/NFTCard/NFT";
+import NFTCard from "../../components/settings/nftcard/nft.js";
 
 function Settings() {
   return (
