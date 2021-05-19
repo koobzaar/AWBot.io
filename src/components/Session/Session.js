@@ -12,8 +12,11 @@ function Session(props){
         <div id="Session">
           <h1 id="session-title">{lang.strings.CurrentMiningSession}</h1>
           <div className="charts">
-          <div id="pseudo-chart">Gráfico 1</div>
-          <div id="pseudo-chart">Gráfico 2</div>
+          <div id="pseudo-chart">
+          <Chart/>
+          </div>
+          <div id="pseudo-chart">
+          </div>
           </div>
           <div className="personal-mining-stats">
             <div className="land-bag">
@@ -34,7 +37,7 @@ function Session(props){
            
           </div>
           <div className="bot-config">
-              <BotConfig botCurrentState="mining" automine="activated" botTimeout="0" cpuLimit="100"/>
+              <BotConfig botCurrentState={ props.botState} automine={props.autoMine} cpuLimit={props.cpuLimit} mineButtonFunction={props.mineButtonFunction}/>
             </div>
         </div>
     );

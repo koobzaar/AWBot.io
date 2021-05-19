@@ -2,10 +2,6 @@ import '../../common/colorPalette.css';
 import './miningLog.css';
 
 
-/**
- * 
- * props receive arrayMiningLog
- */
 function prepareLogPositionsToHeading(MiningLog) {
     if(checkArrayViability(MiningLog) === 200)
     var PastLogs = MiningLog.slice(1)

@@ -64,7 +64,7 @@
 }
 #current-land-comission{
     color: var(--primaryColor);
-    font-size: 0.7vw;
+    font-size: 14px;
     margin-left: 20px;
 }
 .mining-log{

@@ -4,7 +4,6 @@ Alien Worlds TLM Miner front-end project.
 #### Visual (sem nenhuma integração de API)
 Navbar
 - [x] Importação dos respectivos SVG's para cada função
-- [ ] Alterar língua
 
 Dashboard
 - Parte esquerda da Dashboard (Balanço e Recursos)
@@ -23,21 +22,19 @@ Dashboard
 
 Configurações 
 - [x] Mostrar todos as NFTs do usuário
-- [ ] Selecionar NFTs específicos apenas clicando neles
+- [x] Selecionar NFTs específicos apenas clicando neles
 - [x] Botão para setar NFT
 - [x] Definir limite de CPU
-- [ ] Definir se o auto-mine está ativo ou não
+- [x] Definir se o auto-mine está ativo ou não
 - [x] Definir time out no bot até a próxima mineração
 
 Responsividade
-- [ ] Criar telas de exibição limitada
-- [ ] Esconder a parte direita da Dashboard quando ela já não couber responsivamente na tela
-- [ ] Esconder a navbar quando a presença da mesma for intrusiva ao programa e não mais necessária
+- [x] Criar telas de exibição limitada
+- [x] Esconder a parte direita da Dashboard quando ela já não couber responsivamente na tela
+- [x]Esconder a navbar quando a presença da mesma for intrusiva ao programa e não mais necessária
 
 #### Lógica
-- [ ] Reservar um módulo específico de comunicação entre back-end e front-end, sem precisar que o back-end insira os states diretamente em cada página do bot
-- [ ] Definir a língua
-- [ ] Linkar todos os states, botões e funções no módulo de comunicação (back-end & front-end)
+- [x] Linkar todos os states, botões e funções no módulo de comunicação (back-end & front-end)
 
 ## Documentação (indev)
 

@@ -44,3 +44,6 @@
 .dashboard-tlm-balance{
     margin-bottom: 15px;
 }
+#login-button{
+    cursor: pointer;
+}
