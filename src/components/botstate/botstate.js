@@ -14,7 +14,7 @@ function BotState(props) {
         <div className="auto-mine-and-cpu-limit">
           <div>
             <p>{lang.strings.autoMine}</p>
-            <p>{props.automine}</p>
+            <p>{props.automine.toString()}</p>
           </div>
           <div>
             <p>{lang.strings.cpuLimit}</p>

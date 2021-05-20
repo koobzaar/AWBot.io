@@ -35,7 +35,18 @@
 .bag-status{
     margin-top: 20px;
 }
-
+.statistics{
+    width: 50%;
+    color: var(--primaryText);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.statistics h1{
+    font-size: 130px;
+    color: var(--primaryColor);
+}
 #current-bag-title{
     color: var(--primaryText);
     letter-spacing: 2px;

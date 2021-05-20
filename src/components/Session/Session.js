@@ -4,7 +4,6 @@ import MiningLog from '../../lib/miningLog/miningLog'
 import lang from '../../lang/en_US.json';
 import BotConfig from '../botstate/botstate'
 // Navbar Icons
-import Chart from '../../lib/chart/chart'
 
 
 function Session(props){
@@ -12,10 +11,13 @@ function Session(props){
         <div id="Session">
           <h1 id="session-title">{lang.strings.CurrentMiningSession}</h1>
           <div className="charts">
-          <div id="pseudo-chart">
-          <Chart/>
+          <div className="statistics">
+            <h1>{props.totalTLMMined}</h1>
+            <p>{lang.strings.totalTLMMined}</p>
           </div>
-          <div id="pseudo-chart">
+          <div  className="statistics">
+          <h1>{props.rateTLMMined}</h1>
+            <p>{lang.strings.rateTLMHour}</p>
           </div>
           </div>
           <div className="personal-mining-stats">

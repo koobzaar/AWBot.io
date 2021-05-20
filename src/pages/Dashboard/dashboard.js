@@ -33,7 +33,7 @@ function Dashboard(props) {
         <div>
           <p id="login-button" onClick={()=>{
             props.loginFunction()
-          }}>{lang.strings.login}</p>
+          }}>{props.walletName}</p>
         </div>
       </section>
       <section className="dashboard">
@@ -57,6 +57,8 @@ function Dashboard(props) {
         <section className="right-side-dashboard">
           <div>
             <Session
+            totalTLMMined={props.totalTLMMined}
+            rateTLMMined={props.rateTLMHour}
               currentLand={props.currentLand}
               landComission={props.landComission}
               arrayCurrentItemsName={props.arrayCurrentItemsName}

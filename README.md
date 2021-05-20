@@ -21,6 +21,7 @@ Dashboard
 - [x] Mostrar o state do bot (Minerando, Carregando e etc)
 - [x] Mostrar qual a configuração de auto-mine e cpu limit definida
 - [x] Botão de start mining
+- [ ] Alert de erros 
 
 Configurações 
 - [x] Mostrar todos as NFTs do usuário

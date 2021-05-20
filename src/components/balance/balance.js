@@ -15,16 +15,15 @@ function copyCurrentBalanceToClipboard(balance){
 }
 
 function Balance(props){
-    
+    function formatTLM(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
     return(
         <div id='balance'>
-            <div className="hide-balance-button">
-                <img id="hide-balance" src={eyeIcon} alt="Eye Icon"/>
-            </div>
             <h1 id="title-tlm-balance">{lang.strings.TotalTLMbalance}</h1>
             <div className="current-tlm-details">
-                <h1 id="current-tlm-balance">{props.tlmBalance}<span onClick={()=>copyCurrentBalanceToClipboard(props.tlmBalance)}><img id="copy-to-clipboard" src={copyToClipboardIcon}/></span></h1>
-                <h1 id="current-tlm-converted"><span id="approx-abbreviation">{lang.strings.approximatelyAbb} $</span> {props.tlmBalance} (USD)</h1>
+                <h1 id="current-tlm-balance">{formatTLM(props.tlmBalance)}<span onClick={()=>copyCurrentBalanceToClipboard(props.tlmBalance)}><img id="copy-to-clipboard" src={copyToClipboardIcon}/></span></h1>
+                <h1 id="current-tlm-converted"><span id="approx-abbreviation">{lang.strings.approximatelyAbb} $</span> {formatTLM(Math.floor(props.tlmBalance*0.2))} (USD)</h1>
             </div>
         </div>
     );
