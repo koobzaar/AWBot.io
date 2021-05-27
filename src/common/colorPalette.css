@@ -1,0 +1,10 @@
+:root {
+  --backgroundColor: #22222a;
+  --primaryText: #fff;
+  --secundaryText: #727272;
+
+
+  /* Components Card Background */
+  --componentBackground: #2a2a34;
+  --primaryColor: #147ad6;
+}

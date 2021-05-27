@@ -1,0 +1,42 @@
+{
+    "details":{
+
+    },
+    "strings":{
+        "login":"login",
+        "dashboard":"Dashboard",
+        "HOME":"HOME",
+        "TotalTLMbalance":"Total TLM balance",
+        "approximatelyAbb":"approx.",
+        "Resources":"Resources",
+        "CPU":"CPU",
+        "Memory":"Memory",
+        "Network":"Network",
+        "waxStaked":"WAX STAKED",
+        "clickHereToStakeMore":"CLICK HERE TO STAKE MORE",
+        "CurrentMiningSession":"CURRENT MINING SESSION",
+        "totalTLMMined":"TOTAL TLM MINED",
+        "rateTLMHour":"RATE - TLM/HOUR",
+        "yourCurrentLand":"YOUR CURRENT LAND",
+        "COMISSION":"COMISSION",
+        "miningLog":"MINING LOG",
+        "yourCurrentBag":"YOUR CURRENT BAG",
+        "botCurrentState":"bot current state",
+        "states":{
+            "mining":"MINING",
+            "error":"ERROR",
+            "waiting":"WAITING",
+            "charging":"CHARGING"
+        },
+        "mined":"MINED",
+        "hour":"hour",
+        "autoMine":"auto mine",
+        "cpuLimit":"cpu limit",
+        "botTimeout":"timeout",
+        "minutes":"minutes",
+        "activated":"activated",
+        "deactivated":"deactivated",
+        "startMining":"start mining"
+        
+    }
+}
